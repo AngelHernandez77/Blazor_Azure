@@ -1,3 +1,7 @@
+# Site link
+https://white-wave-08cb05a10.azurestaticapps.net/
+
+
 # Blazor Application
 
 Creator: Angel Hernandez
