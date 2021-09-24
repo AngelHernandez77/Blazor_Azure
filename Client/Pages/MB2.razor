@@ -1,0 +1,58 @@
+﻿@page "/ipo"
+
+<h1>Multiply by 2</h1>
+
+<h2>Instructions</h2>
+<p>Enter a number to double it in the first box and predict the result on the second box then press the "Do it" button</p>
+
+<p>Input prompt </p>
+
+<input @bind="InputString " />
+
+<p>Predict the result </p>
+
+<input @bind="Prediction " />
+
+<button class="btn btn-primary" @onclick="DoProcessing">Do it</button>
+
+<p>Output: @OutputString </p>
+<p>Result: @Result</p>
+
+@code
+
+{
+
+    private string InputString { get; set; }
+
+    private string Prediction { get; set; }
+
+    private string OutputString { get; set; }
+
+    private string Result;
+
+    private void DoProcessing()
+
+    {
+
+        double pred = 0;
+        double num = 0;
+
+        num = double.Parse(InputString);
+        pred = double.Parse(Prediction);
+
+        num = num * 2;
+
+        OutputString = num.ToString();
+
+        if (pred == num)
+        {
+            Result = "You are correct!";
+        }
+        else
+        {
+            Result = "You are wrong! You need math classes!";
+        }
+
+    }
+
+}
