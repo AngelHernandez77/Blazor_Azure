@@ -9,7 +9,7 @@ Creator: Angel Hernandez
 Tutorials used: https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro       ///         https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/build-a-blazor-app?view=aspnetcore-5.0&pivots=server
  
- ![screenshot](img2.PNG)
+ ![screenshot](img3.PNG)
 
 # Info
 
